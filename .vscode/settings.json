@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/dbf9c4df-1d51-4079-bf85-cd0fb528fd8b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/TaxCalculatorApplication",
+    "appService.deploySubpath": "."
+}

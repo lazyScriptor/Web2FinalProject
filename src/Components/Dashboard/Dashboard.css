@@ -1,0 +1,26 @@
+.fullSize{
+    
+    height: 100vh;
+    min-width: 340px;
+    background-image: url('../../Images/taxbackground.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size:cover; /* Make sure the image covers the entire container */
+   
+}
+.heading{
+    color: white;
+}
+@media (max-width: 1130px) {
+    
+    .container {
+        flex-direction: column; /* Set flex direction to column to stack cards vertically */
+        gap: 10px;
+
+    }
+}
+@media (max-width: 340px) {
+    
+    .container {
+       margin: 20px;
+        
+    }
+}

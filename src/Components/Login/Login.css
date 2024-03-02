@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    min-width: 340px;
+    background-image: url('../../Images/taxbackground.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size:cover; /* Make sure the image covers the entire container */
+    background-position: center; /* Center the background image */
+}
+
+.login-left {
+    
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.916);
+    border-radius: 20px;
+    margin-top:10vh ;
+}
+
+.content {
+    min-width: 340px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column; /* Display flex items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Vertically center items */
+    gap: 20px; /* Specify the space between items */
+   
+    height: 76.8vh;
+    margin-top: -100px;
+}
